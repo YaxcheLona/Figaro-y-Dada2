@@ -41,10 +41,12 @@ pip3 install -r requirements.txt
 ```
 
 **Correr el programa**
+
 Figaro analizará analizará el directorio con todos los archivos FASTQ con el siguiente comando:
 
 ```
 python3 figaro.py -i /path/to/fastq/directory -o /path/to/output/files -a 450 -f 20 -r 20
 
 ```
+**Dada2**
 
