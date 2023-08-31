@@ -285,7 +285,7 @@ sapply(c(cran_packages, bioc_packages, git_packages),
 - [ ] Creamos objeto en phyloseq para inferencias
 
 ```bash
-file_path <- "Cominidad_microbiana_estero_pargo/Data/01.Datos_crudos/Metadata.csv"
+file_path <- "Direccion/donde/se/encuentren/meta/datos"
 csv_content <- readLines(file_path)
 csv_content_clean <- gsub("\uFFFD", "", csv_content)
 samdf <- read.csv(text = csv_content_clean, header = TRUE, row.names = 4, 
